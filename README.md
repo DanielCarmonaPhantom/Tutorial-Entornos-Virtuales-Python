@@ -36,9 +36,9 @@ Si no llegara a preguntarnos, este se encuentra en la esquina superior derecha.
 
 Entraremos a nuestra consola y dependiendo el sistemas operativo, utilizaremos el comando
 
-**Windows**: `python --versión` o `py --versión` 
+**Windows**: `python --version` o `py --version` 
 
-**Mac/Linux** `python3 --versión`
+**Mac/Linux** `python3 --version`
 
 Está nos debe dar como resultado la misma versión que tenemos de kernel para nuestro editor de texto.
 
