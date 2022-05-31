@@ -12,7 +12,9 @@ A la hora de trabajar paquetes para python, se pueden crear entornos donde reque
 
 <img src='src/img/Proyectos.png'>
 
-Como puedes ver en la imagen, llegaremos a tener diferentes proyectos donde en algunos, estaremos utilizando librerías diferentes o hasta versions diferentes de Python. Tal vez puedas instalar todas en tu computadora e importarlas cuando se requieran pero ademas de las buenas practicas, a la hora de exportar tu proyecto, necesitaras enlistar las librerias utilizadas en un archivo llamado Requeriments que le ayuda a los demas a instalar las librerias utilizadas justamente en otro ambiente virtual.
+Como puedes ver en la imagen, llegaremos a tener diferentes proyectos donde en algunos, estaremos utilizando librerías diferentes o hasta versiones diferentes de Python. 
+
+Tal vez puedas instalar todas en tu computadora e importarlas cuando se requieran pero ademas de las buenas practicas, a la hora de exportar tu proyecto, necesitaras en listar las librerias utilizadas en un archivo llamado Requeriments que le ayuda a los demas a instalar las librerias utilizadas justamente en otro ambiente virtual.
 
 
 
@@ -47,14 +49,14 @@ Python 3.10.4
 
 Una ves que verificamos cual es la version, utilizaremos ese mismo comando para crear el módulo venv. Para esto debemos estar **posicionados en la carpeta** donde vamos a crear el ambiente. Puedes hacerlo de 2 maneras.
 
-* Si ya tienes el editor de texto abierto en la carpeta que creaste para este tutorial, solo debes ir a las opciones de arriba y buscar la pestaña Terminal y abrir una nueva terminal y esta ya estara posicionada en la carpeta.
+* Si ya tienes el editor de texto abierto en la carpeta que creaste para este tutorial, solo debes ir a las opciones de ventana, buscar la pestaña Terminal, abrir una nueva terminal y esta ya se encontara posicionada en la carpeta.
 
 * Abrir una terminal y moverte entre carpetas con el comando `cd` hasta la carpeta de este tutorial, debe aparecerte algo así:
 
+(Ejemplo en Windows)
 ```Bash
 C:\Users\Daniel\Desktop\Tutorial-ambiente-virtual>
 ```
-(Ejemplo en Windows)
 
 Y dependiendo de tu S.O utilizaremos el comando de python que usaste en el punto 3 del paso 1:
 
