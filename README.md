@@ -12,7 +12,7 @@ A la hora de trabajar paquetes para python, se pueden crear entornos donde reque
 
 <img src='src/img/Proyectos.png'>
 
-Como puedes ver en la imagen, llegaremos a tener diferentes proyectos donde estaremos utilizando librerías diferentes o hasta versiónes diferentes de Python. 
+Como puedes ver en la imagen, llegaremos a tener diferentes proyectos donde estaremos utilizando diferentes librerías o hasta versiónes diferentes de Python. 
 
 Tal vez puedas instalar todas en tu computadora e importarlas cuando se requieran pero además de las buenas prácticas, a la hora de exportar tu proyecto, necesitas en listar las librerías utilizadas en un archivo llamado Requeriments que le ayuda a los demas a instalar las librerías utilizadas justamente en otro ambiente virtual.
 
