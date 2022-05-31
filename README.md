@@ -34,7 +34,7 @@ Si no llegara a preguntarnos, este se encuentra en la esquina superior derecha.
 
 3. Verificamos que está versión sea la que tenemos en nuestra consola
 
-Entraremos a nuestra consola y dependiendo el sistemas operativo, utilizaremos el comando
+Entraremos a nuestra consola y dependiendo el sistemas operativo, utilizaremos el comando (sin acentos):
 
 **Windows**: `python --version` o `py --version` 
 
