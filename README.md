@@ -28,7 +28,7 @@ Si nunca hemos trabajado con archivos `.py` y solo notebooks, ahí nos dice que 
 
 2. Dentro de una celda de código, ejecutaremos un `print("Hola Mundo")` y nos preguntará con que kernel deseamos trabajar. 
 
-<img src='src/img/versión.png'>
+<img src='src/img/version.png'>
 
 Si no llegara a preguntarnos, este se encuentra en la esquina superior derecha.
 
