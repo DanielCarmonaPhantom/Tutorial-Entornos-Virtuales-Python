@@ -64,11 +64,11 @@ Y dependiendo de tu Sistema Operativo utilizaremos el comando de python que usas
 
 **Mac/Linux** `python3 -m venv tutorial-env`
 
-Este te creara una carpeta llamada `venv`
+Este te creara una carpeta llamada `tutorial-venv` o `venv`
 
 ## Paso 3. Activar tu entorno virtual
 
-Para activarlo, solo ejecutaremos un comando que es diferente para cada Sistema Operativo
+Para activarlo, solo ejecutaremos un comando que es diferente para cada Sistema Operativo:
 
 En Windows, ejecuta:
 
@@ -80,3 +80,42 @@ En Unix o MacOS, ejecuta:
 ```Bash
 source tutorial-env/bin/activate
 ```
+
+Una vez activado, veras un ligero cambio en tu consola que te mostrara que acabas de entrar a un ambiente virtual.
+
+## Paso 4. Instalar una librería 
+
+Para probrar nuestor ambiente virtual, instalaremos una librería utilizando el manejador de paquetes pip
+
+En Windows, ejecuta:
+
+```Bash
+pip install pandas
+```
+En Unix o MacOS, ejecuta:
+
+```Bash
+pip3 install pandas
+```
+
+Se empezaran a instalar los paquetes que se necesitan solo en el ambiente virtual.
+
+Para verificar cuales se instalaron, puedes utilizar el comando:
+```Bash
+pip freeze
+```
+En Unix o MacOS, ejecuta:
+
+```Bash
+pip3 freeze
+```
+
+## Paso 5. Apagar el ambiente virtual
+
+Si ya no trabajaras en el ambiente, debes apagarlo con el comando:
+
+```Bash
+deactivate
+```
+
+Este de regresara al estado normal de la terminal.
