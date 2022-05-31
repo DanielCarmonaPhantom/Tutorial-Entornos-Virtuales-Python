@@ -119,3 +119,5 @@ deactivate
 ```
 
 Este de regresara al estado normal de la terminal.
+
+<img src='src/img/Footer.png'>
