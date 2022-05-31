@@ -58,8 +58,25 @@ Una ves que verificamos cual es la version, utilizaremos ese mismo comando para 
 C:\Users\Daniel\Desktop\Tutorial-ambiente-virtual>
 ```
 
-Y dependiendo de tu S.O utilizaremos el comando de python que usaste en el punto 3 del paso 1:
+Y dependiendo de tu Sistema Operativo utilizaremos el comando de python que usaste en el punto 3 del paso 1:
 
 **Windows**: `python -m venv tutorial-env` o `py -m venv tutorial-env` 
 
 **Mac/Linux** `python3 -m venv tutorial-env`
+
+Este te creara una carpeta llamada `venv`
+
+## Paso 3. Activar tu entorno virtual
+
+Para activarlo, solo ejecutaremos un comando que es diferente para cada Sistema Operativo
+
+En Windows, ejecuta:
+
+```Bash
+tutorial-env\Scripts\activate.bat
+```
+En Unix o MacOS, ejecuta:
+
+```Bash
+source tutorial-env/bin/activate
+```
