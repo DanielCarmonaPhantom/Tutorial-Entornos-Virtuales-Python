@@ -41,6 +41,8 @@ Entraremos a nuestra consola y dependiendo el sistemas operativo, utilizaremos e
 **Mac/Linux** `python3 --versión`
 
 Está nos debe dar como resultado la misma versión que tenemos de kernel para nuestro editor de texto.
+
+(Ejemplo mio)
 ```Bash
 Python 3.10.4
 ```
