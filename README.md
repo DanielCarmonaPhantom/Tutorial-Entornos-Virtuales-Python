@@ -101,6 +101,7 @@ pip3 install pandas
 Se empezaran a instalar los paquetes que se necesitan solo en el ambiente virtual.
 
 Para verificar cuales se instalaron, puedes utilizar el comando:
+En Windows:
 ```Bash
 pip freeze
 ```
