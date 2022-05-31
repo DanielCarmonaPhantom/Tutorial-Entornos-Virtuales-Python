@@ -20,9 +20,10 @@ Como puedes ver en la imagen, llegaremos a tener diferentes proyectos donde en a
 
 Dependiendo la version de python que tienes, es el ambiente virtual que podras trabajar. Podras encontrar tuturiales que utilizan la libreria virtualvenv y que se debe de instalar pero aquí estaremos utilizando el módulo venv que ya viene en las ultimas versiones de python.
 
-Si nunca hemos trabajado con archivos .py y solo notebooks, ahí nos dice que version esta trabajando nuestro kernel.
+Si nunca hemos trabajado con archivos `.py` y solo notebooks, ahí nos dice que version esta trabajando nuestro kernel.
 
-1. Crearemos un archivo .ipybn en nuestro editor de texto que es el formato para los notebooks.
+1. Crearemos un archivo `.ipybn`con cualquier nombre en nuestro editor de texto que es el formato para los notebooks. (Crea una carpeta donde trabajaras este tutorial)
+
 2. Dentro de una celda de código, ejecutaremos un `print("Hola Mundo")` y nos preguntara con que kernel deseamos trabajar. 
 
 <img src='src/img/version.png'>
@@ -36,3 +37,27 @@ Entraremos a nuestra consola y dependiendo el sistemas operativo, utilizaremos e
 **Windows**: `python --version` o `py --version` 
 
 **Mac/Linux** `python3 --version`
+
+Está nos debe dar como resultado la misma version que tenemos de kernel para nuestro editor de texto.
+```Bash
+Python 3.10.4
+```
+
+## Paso 2. Ejecutar el comando para crear un entorno virtual 
+
+Una ves que verificamos cual es la version, utilizaremos ese mismo comando para crear el módulo venv. Para esto debemos estar **posicionados en la carpeta** donde vamos a crear el ambiente. Puedes hacerlo de 2 maneras.
+
+* Si ya tienes el editor de texto abierto en la carpeta que creaste para este tutorial, solo debes ir a las opciones de arriba y buscar la pestaña Terminal y abrir una nueva terminal y esta ya estara posicionada en la carpeta.
+
+* Abrir una terminal y moverte entre carpetas con el comando `cd` hasta la carpeta de este tutorial, debe aparecerte algo así:
+
+```Bash
+C:\Users\Daniel\Desktop\Tutorial-ambiente-virtual>
+```
+(Ejemplo en Windows)
+
+Y dependiendo de tu S.O utilizaremos el comando de python que usaste en el punto 3 del paso 1:
+
+**Windows**: `python -m venv tutorial-env` o `py -m venv tutorial-env` 
+
+**Mac/Linux** `python3 -m venv tutorial-env`
