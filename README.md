@@ -36,7 +36,7 @@ Si no llegara a preguntarnos, este se encuentra en la esquina superior derecha.
 
 Entraremos a nuestra consola y dependiendo el sistemas operativo, utilizaremos el comando (sin acentos):
 
-**Windows**: `python --version` o `py --version` 
+**Windows**:  `py --version` o `python --version`
 
 **Mac/Linux** `python3 --version`
 
@@ -62,7 +62,7 @@ C:\Users\Daniel\Desktop\Tutorial-ambiente-virtual>
 
 Y dependiendo de tu Sistema Operativo utilizaremos el comando de python que usaste en el punto 3 del paso 1:
 
-**Windows**: `python -m venv tutorial-env` o `py -m venv tutorial-env` 
+**Windows**: `py -m venv tutorial-env` o `python -m venv tutorial-env`
 
 **Mac/Linux** `python3 -m venv tutorial-env`
 
