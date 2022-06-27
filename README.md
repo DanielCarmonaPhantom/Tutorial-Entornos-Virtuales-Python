@@ -121,5 +121,5 @@ Si ya no trabajaras en el ambiente, debes apagarlo con el comando:
 deactivate
 ```
 Este te regresará al estado normal de la terminal.
-
+.
 <img src='src/img/Footer.png'>
