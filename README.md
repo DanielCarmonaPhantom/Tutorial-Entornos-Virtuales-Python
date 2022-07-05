@@ -47,7 +47,7 @@ Está nos debe dar como resultado la misma versión que tenemos de kernel para n
 Python 3.10.4
 ```
 
-Cierra tu editor de texto, no lo necesitaremos hasta el paso 5.
+Elimina ek archivo que creaste y cierra tu editor de texto, no lo necesitaremos hasta el paso 5.
 
 ## Paso 2. Ejecutar el comando para crear un entorno virtual 
 
@@ -124,9 +124,7 @@ Para empezar escribiremos el siguiente comando para abrir nuestro editor de text
 code .
 ```
 
-(Esto si tienes esa función
-```
-
+(Esto si tienes esa función, si no, solo abre de nuevo una ventana nueva de tu editor de texto y abre el folder que utilizamos para este tutorial)
 
 Esto te abrirá una nueva ventana de tu editor de texto **apuntando a tu carpeta**. Podemos ver que existe una carpeta llamada `tutorial-env` que es la carpeta de tu entorno virtual. Crearas un nuevo notebook con su terminación .ipynb. Una vez que tu archivo esté listo para trabajar, probablemente arriba a la derecha te seguirá apareciendo tu kernel de tu versión que visualizamos en el paso 1. Nosotros buscamos que se vea algo así:
 
