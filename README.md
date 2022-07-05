@@ -47,6 +47,8 @@ Está nos debe dar como resultado la misma versión que tenemos de kernel para n
 Python 3.10.4
 ```
 
+Cierra tu editor de texto, no lo necesitaremos hasta el paso 5.
+
 ## Paso 2. Ejecutar el comando para crear un entorno virtual 
 
 Una vez que verificamos cual es la versión, utilizaremos ese mismo comando para crear el módulo venv. Para esto debemos estar **posicionados en la carpeta** donde vamos a crear el ambiente. Puedes hacerlo de 2 maneras.
