@@ -77,7 +77,7 @@ Para activarlo, solo ejecutaremos un comando que es diferente para cada Sistema 
 En Windows, ejecuta:
 
 ```Bash
-tutorial-env\Scripts\activate.bat
+tutorial-env\Scripts\activate
 ```
 En Unix o MacOS, ejecuta:
 
