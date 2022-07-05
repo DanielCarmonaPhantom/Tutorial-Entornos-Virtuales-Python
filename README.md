@@ -116,7 +116,7 @@ pip3 freeze
 ```
 
 ## Paso 5. Trabajar en tu editor de código con ambiente virtual
-Al tener un ambiente virtual, ya puedes trabajar en Python con tu editor de código en un ambiente virtual. Eso significa que el kernel con el que trabajara será unicamente de ese entorno de trabajo. 
+Finalmente ya puedes trabajar en Python con tu editor de código en un ambiente virtual. Eso significa que el kernel con el que trabajara será unicamente de ese entorno de trabajo. 
 
 Para empezar escribiremos el siguiente comando para abrir nuestro editor de texto (Visual code)
 
