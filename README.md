@@ -113,6 +113,32 @@ En Unix o MacOS, ejecuta:
 pip3 freeze
 ```
 
+## Paso 6. Trabajar en tu editor de código con ambiente virtual
+Al tener un ambiente virtual, ya puedes trabajar en Python con tu editor de código en un ambiente virtual. Eso significa que el kernel con el que trabajara será unicamente de ese entorno de trabajo. 
+
+Para empezar escribiremos el siguiente comando para abrir nuestro editor de texto (Visual code)
+
+```Bash
+code .
+```
+
+Esto te abrirá una nueva ventana de tu editor de texto **apuntando a tu carpeta**. Podemos ver que existe una carpeta llamada `tutorial-env` que es la carpeta de tu entorno virtual. Crearas un nuevo notebook con su terminación .ipynb. Una vez que tu archivo esté listo para trabajar, probablemente arriba a la derecha te seguirá apareciendo tu kernel de tu versión que visualizamos en el paso 1. Nosotros buscamos que se vea algo así:
+
+```
+(tutorial-env) Tu versión de Python
+```
+
+Entonces daremos click nuevamente a la versión de python y puede aparecernos ahora si la versión en entorno virtual.
+
+Sì en dado caso no te aparece `(tutorial-env) Tu versión de Python` lo que haremos es un 
+
+```Python
+print("Hola")
+```
+
+Esto hará que tu notebook empiece a trabajar. Una vez que te devuelva el `Hola` daremos click otra vez a la versión de python y ahora definitivamente ya te debe aparecer tu versión de entorno virtual. Te pedirá que instales unas cosas cuando le des click.
+
+
 ## Paso 5. Apagar el ambiente virtual
 
 Si ya no trabajaras en el ambiente, debes apagarlo con el comando:
@@ -121,5 +147,7 @@ Si ya no trabajaras en el ambiente, debes apagarlo con el comando:
 deactivate
 ```
 Este te regresará al estado normal de la terminal.
+
+
 
 <img src='src/img/Footer.png'>
